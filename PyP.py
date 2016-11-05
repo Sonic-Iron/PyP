@@ -53,25 +53,25 @@ def compression():
         confframe.destroy()
     except tk.TclError:
         pass
+    def scan(self, d):
+        global items
+        for thing in os.listdir(d):
+            if not thing == d[0]:
+                try:
+                    scan(self, d + '/' + thing)
+                    folders.append(d + '/' + thing)
+                except OSError:
+                    catch = False
+                    for extension in extensions:
+                        if thing[len(thing)-len(extension):] == extension:
+                            catch = True
+                    if catch:
+                        files.append(d + '/' + thing)
+    scan(scan, target)
+    total = 0
+    step = 85 / (len(folders) + len(files))
+    pos = 1
     if ctype == 'PyP':
-        def scan(self, d):
-            global items
-            for thing in os.listdir(d):
-                if not thing == d[0]:
-                    try:
-                        scan(self, d + '/' + thing)
-                        folders.append(d + '/' + thing)
-                    except OSError:
-                        catch = False
-                        for extension in extensions:
-                            if thing[len(thing)-len(extension):] == extension:
-                                catch = True
-                        if catch:
-                            files.append(d + '/' + thing)
-        scan(scan, target)
-        total = 0
-        step = 85 / (len(folders) + len(files))
-        pos = 1
         file = open(compto, 'w')
         file.write(target + '$\n')
         file.close()
