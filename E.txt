@@ -1,0 +1,1369 @@
+E:/$
+E://System Volume Information
+E://Snake
+E://Run
+E://SD/User/Files/SecMSG
+E://SD/User/Files
+E://SD/User/Resources
+E://SD/User
+E://SD/Programs/Tools/System
+E://SD/Programs/Tools/Batch
+E://SD/Programs/Tools
+E://SD/Programs/Springboard
+E://SD/Programs/Program Files/Run (game)
+E://SD/Programs/Program Files
+E://SD/Programs
+E://SD/.git/objects/info
+E://SD/.git/objects/pack
+E://SD/.git/objects/bd
+E://SD/.git/objects/e3
+E://SD/.git/objects/98
+E://SD/.git/objects/fe
+E://SD/.git/objects/e6
+E://SD/.git/objects/a6
+E://SD/.git/objects/37
+E://SD/.git/objects/ef
+E://SD/.git/objects/c9
+E://SD/.git/objects/d8
+E://SD/.git/objects/f4
+E://SD/.git/objects/19
+E://SD/.git/objects/d3
+E://SD/.git/objects/d2
+E://SD/.git/objects/8b
+E://SD/.git/objects/99
+E://SD/.git/objects/1b
+E://SD/.git/objects/50
+E://SD/.git/objects/96
+E://SD/.git/objects/56
+E://SD/.git/objects/d5
+E://SD/.git/objects/c1
+E://SD/.git/objects/a7
+E://SD/.git/objects/d0
+E://SD/.git/objects/8e
+E://SD/.git/objects/f1
+E://SD/.git/objects/f9
+E://SD/.git/objects/ca
+E://SD/.git/objects/0c
+E://SD/.git/objects/72
+E://SD/.git/objects/97
+E://SD/.git/objects/5c
+E://SD/.git/objects/85
+E://SD/.git/objects/32
+E://SD/.git/objects/53
+E://SD/.git/objects/73
+E://SD/.git/objects/90
+E://SD/.git/objects/11
+E://SD/.git/objects/83
+E://SD/.git/objects/ad
+E://SD/.git/objects/3d
+E://SD/.git/objects/41
+E://SD/.git/objects/61
+E://SD/.git/objects/aa
+E://SD/.git/objects/f7
+E://SD/.git/objects/ac
+E://SD/.git/objects/78
+E://SD/.git/objects/66
+E://SD/.git/objects/54
+E://SD/.git/objects/8c
+E://SD/.git/objects/06
+E://SD/.git/objects/c6
+E://SD/.git/objects/59
+E://SD/.git/objects/38
+E://SD/.git/objects/21
+E://SD/.git/objects/e4
+E://SD/.git/objects/ab
+E://SD/.git/objects/7b
+E://SD/.git/objects/f3
+E://SD/.git/objects/71
+E://SD/.git/objects/f0
+E://SD/.git/objects/04
+E://SD/.git/objects/bb
+E://SD/.git/objects/cd
+E://SD/.git/objects/20
+E://SD/.git/objects/5b
+E://SD/.git/objects/81
+E://SD/.git/objects/c3
+E://SD/.git/objects/b8
+E://SD/.git/objects/3b
+E://SD/.git/objects/c5
+E://SD/.git/objects/8a
+E://SD/.git/objects/b4
+E://SD/.git/objects/dc
+E://SD/.git/objects/02
+E://SD/.git/objects/fb
+E://SD/.git/objects/5f
+E://SD/.git/objects/ec
+E://SD/.git/objects/2c
+E://SD/.git/objects/fa
+E://SD/.git/objects/b1
+E://SD/.git/objects/cb
+E://SD/.git/objects/f8
+E://SD/.git/objects/5d
+E://SD/.git/objects/b0
+E://SD/.git/objects/62
+E://SD/.git/objects/4a
+E://SD/.git/objects/8f
+E://SD/.git/objects/87
+E://SD/.git/objects/30
+E://SD/.git/objects/e5
+E://SD/.git/objects/a9
+E://SD/.git/objects/ea
+E://SD/.git/objects/25
+E://SD/.git/objects/89
+E://SD/.git/objects/74
+E://SD/.git/objects/52
+E://SD/.git/objects/15
+E://SD/.git/objects/05
+E://SD/.git/objects/b5
+E://SD/.git/objects/ba
+E://SD/.git/objects/a8
+E://SD/.git/objects/2d
+E://SD/.git/objects/de
+E://SD/.git/objects/24
+E://SD/.git/objects/40
+E://SD/.git/objects/10
+E://SD/.git/objects/df
+E://SD/.git/objects/36
+E://SD/.git/objects/eb
+E://SD/.git/objects/68
+E://SD/.git/objects/00
+E://SD/.git/objects/76
+E://SD/.git/objects/63
+E://SD/.git/objects/42
+E://SD/.git/objects/bf
+E://SD/.git/objects/57
+E://SD/.git/objects
+E://SD/.git/refs/heads
+E://SD/.git/refs/tags
+E://SD/.git/refs
+E://SD/.git/hooks
+E://SD/.git/info
+E://SD/.git/logs/refs/heads
+E://SD/.git/logs/refs
+E://SD/.git/logs
+E://SD/.git
+E://SD
+E://InkTraction/.git/objects/info
+E://InkTraction/.git/objects/pack
+E://InkTraction/.git/objects/bd
+E://InkTraction/.git/objects/e3
+E://InkTraction/.git/objects/98
+E://InkTraction/.git/objects/d6
+E://InkTraction/.git/objects/35
+E://InkTraction/.git/objects/e6
+E://InkTraction/.git/objects/34
+E://InkTraction/.git/objects/59
+E://InkTraction/.git/objects/ae
+E://InkTraction/.git/objects/05
+E://InkTraction/.git/objects/0b
+E://InkTraction/.git/objects/76
+E://InkTraction/.git/objects/26
+E://InkTraction/.git/objects/45
+E://InkTraction/.git/objects
+E://InkTraction/.git/refs/heads
+E://InkTraction/.git/refs/tags
+E://InkTraction/.git/refs
+E://InkTraction/.git/hooks
+E://InkTraction/.git/info
+E://InkTraction/.git/logs/refs/heads
+E://InkTraction/.git/logs/refs
+E://InkTraction/.git/logs
+E://InkTraction/.git
+E://InkTraction/Data/__pycache__
+E://InkTraction/Data
+E://InkTraction
+$
+E://Snake/snake.py:global snake, actions, bindings, root, oneat, running, end, sounds
+import tkinter as tk
+import time, threading, random, winsound
+
+#Snake game - David Juckes
+
+root = tk.Tk()
+root.title('Snake')
+
+running = True
+
+class sounds:
+    death = [(800, 200), (760, 200), (720, 200), (680, 200), (640, 200), (600, 200), (560, 200), (520, 200), (480, 2000)] #Death sounds
+    eat = [(720, 200), (850, 200)] #Eat sounds
+
+class snake: #Snake config
+    direction = 'up'
+    length = 2
+    class head:
+        height = 16
+        width = 16
+        x = width * 10 + (width / 2)
+        y = height * 10 + (width / 2)
+        location = 'head.gif'
+        image = tk.PhotoImage(file=location)
+    class body:
+        refs = []
+        location = 'block.gif'
+        image = tk.PhotoImage(file=location)
+
+snake.body.refs = [(snake.head.x, snake.head.y)]
+
+class food: #Food config
+    refs = []
+    cap = 2
+    location = 'food.gif'
+    image=tk.PhotoImage(file=location)
+
+class actions: #Key binding actions
+    def up(none):
+        global snake
+        if not snake.direction == 'down':
+            snake.direction = 'up'
+    def down(none):
+        global snake
+        if not snake.direction == 'up':
+            snake.direction = 'down'
+    def left(none):
+        global snake
+        if not snake.direction == 'right':
+            snake.direction = 'left'
+    def right(none):
+        global snake
+        if not snake.direction == 'left':
+            snake.direction = 'right'
+
+class bindings: #Key bindings
+    class up:
+        key = '<w>'
+        function = actions.up
+    class down:
+        key = '<s>'
+        function = actions.down
+    class left:
+        key = '<a>'
+        function = actions.left
+    class right:
+        key = '<d>'
+        function = actions.right
+
+class canvas:
+    height = snake.head.height * 20
+    width = snake.head.height * 20
+
+class gameover: #Game over config
+    text = 'Game Over'
+    font = ('Arial', 20)
+    colour = 'red'
+    reasonfont = ('Arial', 15)
+    reasoncolour = 'green'
+    x = canvas.width / 2
+    y = (canvas.height / 2) - 20
+    rx = x
+    ry = y + 25
+
+root.bind(sequence=bindings.up.key, func=bindings.up.function) #Keys bound to window
+root.bind(sequence=bindings.down.key, func=bindings.down.function)
+root.bind(sequence=bindings.left.key, func=bindings.left.function)
+root.bind(sequence=bindings.right.key, func=bindings.right.function)
+
+window = tk.Canvas(root, height=canvas.height, width=canvas.width) #Create game canvas inside window
+window.pack()
+
+def playsound(sound): #Play a group of sounds in lists
+    for s in sound:
+        freq, dura = s
+        winsound.Beep(freq, dura)
+
+def end(reason): #End the game
+    global running
+    print('END: ' + reason)
+    running = False
+    window.create_text(gameover.x, gameover.y, font=gameover.font, text=gameover.text, fill=gameover.colour)
+    window.create_text(gameover.rx, gameover.ry, font=gameover.reasonfont, text=reason, fill=gameover.reasoncolour)
+    playsound(sounds.death)
+    input()
+
+def graphics(): #Graphics handler
+    images = []
+    while running:
+        images.clear() #Clear image references
+        for part in snake.body.refs: #Render snake body
+            x, y = part
+            images.append(window.create_image(x, y, image=snake.body.image))
+        for part in food.refs: #Render food
+            x, y = part
+            images.append(window.create_image(x, y, image=food.image))
+        snakehead = window.create_image(snake.head.x, snake.head.y, image=snake.head.image) #Render snake head
+        time.sleep(0.2) #Delay loop
+        window.delete(snakehead) #Remove old snake head
+        for part in images: #Remove all other image references
+            window.delete(part)
+    images.clear()
+    #Put all the images on the screen for the game over screen
+    for part in snake.body.refs:
+        x, y = part
+        images.append(window.create_image(x, y, image=snake.body.image))
+    for part in food.refs:
+        x, y = part
+        images.append(window.create_image(x, y, image=food.image))
+    snakehead = window.create_image(snake.head.x, snake.head.y, image=snake.head.image)
+
+def movement(): #Handler for up/down/left/right changes
+    while running:
+        snake.body.refs.remove(snake.body.refs[0])
+        snake.body.refs.append((snake.head.x, snake.head.y))
+        if snake.direction == 'up':
+            snake.head.y = snake.head.y - snake.head.height
+        elif snake.direction == 'down':
+            snake.head.y = snake.head.y + snake.head.height
+        elif snake.direction == 'left':
+            snake.head.x = snake.head.x - snake.head.height
+        elif snake.direction == 'right':
+            snake.head.x = snake.head.x + snake.head.height
+        time.sleep(0.2)
+
+def dropfood(): #Make sure the correct amount of food is always dropped
+    global food
+    while running:
+        if not len(food.refs) == food.cap:
+            food.refs.append(((random.randint(0, canvas.width / snake.head.width) * snake.head.width) + snake.head.width / 2, (random.randint(0, canvas.height / snake.head.height) * snake.head.height) + snake.head.height / 2))
+            fx, fy = food.refs[len(food.refs)-1]
+            if fx <= 0 or fy <= 0 or fx >= canvas.width or fy >= canvas.height:
+                food.refs.remove(food.refs[len(food.refs)-1])
+        time.sleep(0.2)
+
+def oneat(fooditem): #When food is hit
+    try:
+        global food, snake
+        food.refs.remove(fooditem)
+        snake.body.refs.append((snake.head.x, snake.head.y))
+        playsound(sounds.eat)
+    except ValueError:
+        0 #Do nothing
+
+def scanfood(): #Check if should be eating food
+    global food, end
+    while running:
+        for fooditem in food.refs:
+            if fooditem == (snake.head.x, snake.head.y):
+                oneat(fooditem)
+            for part in snake.body.refs:
+                if fooditem == part:
+                    oneat(fooditem)
+        if snake.head.x <= 0 or snake.head.y <= 0 or snake.head.x >= canvas.width or snake.head.y >= canvas.height:
+            end('Touched edge')
+        pos = -1
+        for part in snake.body.refs:
+            pos = pos + 1
+            if part == (snake.head.x, snake.head.y) and not pos == len(snake.body.refs)-1:
+                end('Touching body')
+        time.sleep(0.1) #Goes twice speed to make sure all connections are caught
+
+#Start all threads
+graphics_thread = threading.Thread(target=graphics) #Thread to handle shapes being rendered onto the screen
+graphics_thread.daemon = True
+graphics_thread.start()
+
+movement_thread = threading.Thread(target=movement)
+movement_thread.daemon = True
+movement_thread.start()
+
+dropfood_thread = threading.Thread(target=dropfood)
+dropfood_thread.daemon = True
+dropfood_thread.start()
+
+scanfood_thread = threading.Thread(target=scanfood)
+scanfood_thread.daemon = True
+scanfood_thread.start()
+
+root.mainloop()
+
+!divider!
+E://Run/main.py:global canjump, alt, speed, jumpspeed, canvas, runner, floorheight, boxes, gravity, approxeq, ongameover, drawhealthbar, healthbar, game_over, window, refs, sounds, onclip
+
+class refs:
+    me = 'main.py'
+    version = '1.0.0'
+    class images:
+        runner = 'runner.gif'
+        box = 'box.gif'
+    class sounds:
+        jump = (800, 400)
+        damage1 = (1000, 400)
+        damage2 = (980, 400)
+        damage3 = (960, 400)
+        damage4 = (940, 400)
+
+game_over = False
+
+import tkinter as tk
+import time, threading, sys, winsound
+
+root = tk.Tk()
+root.title('Run')
+
+jumpspeed = 10
+speed = 0
+alt = 0
+gravity = 10
+sounds = []
+
+jump_binding = '<space>'
+
+class window:
+    height = 200*2
+    width = 500*1.5
+
+floorheight = window.height - 32
+
+canvasframe = tk.Frame(root)
+canvas = tk.Canvas(canvasframe, height=window.height, width=window.width, background="red")
+
+canjump = True
+def jump(none):
+    global speed, runner, sounds
+    if not floorheight > runner.y:
+        runner.speed = -50
+        sounds.append(refs.sounds.jump)
+
+##### UI
+
+def uifunc_playagain():
+    import subprocess
+    subprocess.Popen(refs.me, shell=True)
+    sys.exit()
+
+ui_playagain = tk.Button(root, command=uifunc_playagain, text='Restart')
+ui_playagain.pack(side=tk.LEFT)
+ui_version = tk.Label(root, text='Version ' + str(refs.version))
+ui_version.pack(side=tk.LEFT)
+
+#####
+
+root.bind(sequence=jump_binding, func=jump)
+
+canvasframe.pack(anchor='nw')
+canvas.pack(anchor='nw')
+
+def approxeq(val1, val2, diff=None):
+    if val1 > val2:
+        difference = val1 - val2
+    elif val1 < val2:
+        difference = val2 - val1
+    else:
+        difference = 0
+    if diff == None:
+        return difference
+    else:
+        if difference < diff:
+            return True
+        else:
+            return False
+
+class runner:
+    image = tk.PhotoImage(file=refs.images.runner)
+    x = 50 + 32
+    y = 200 - 32
+    speed = 0
+    health = 5
+
+class boxes:
+    box1 = tk.PhotoImage(file=refs.images.box)
+    box1default = window.width + 32
+    box1coords = box1default
+    speed = 10
+
+def ongameover():
+    global game_over, sounds
+    game_over = True
+    canvas.create_text(window.width / 2, window.height / 2, font=('Comic Sans MS', 40), text='Game Over')
+    while True:
+        time.sleep(10000) #Hang thread
+
+def drawhealthbar(health):
+    global healthbar, sounds
+    if not healthbar == '':
+        for pos in healthbar:
+            canvas.create_rectangle(10, pos, 30, pos+10, fill='red', outline='red')
+    healthbar = []
+    for pos in range(10, health*10, 10):
+        canvas.create_rectangle(10, pos, 30, pos+10, fill='green', outline='red')
+        healthbar.append(pos)
+
+healthbar = ''
+drawhealthbar(runner.health)
+
+def onclip():
+    global runner, sounds
+    import winsound
+    runner.health = runner.health - 1
+    sounds.append(refs.sounds.damage1)
+    sounds.append(refs.sounds.damage2)
+    sounds.append(refs.sounds.damage3)
+    sounds.append(refs.sounds.damage4)
+    drawhealthbar(runner.health)
+    if runner.health == 1:
+            ongameover()
+    time.sleep(boxes.speed / 40) #Cooldown
+
+def cliphandler():
+    global runner, sounds
+    while True:
+        if approxeq(boxes.box1coords, runner.x, diff=32) and runner.y > floorheight - 64: #Clipped box
+            onclip()
+        time.sleep(0.008)
+
+def graphichandler():
+    global runner, boxes, sounds
+    while True: #Render in players
+        player = canvas.create_image(runner.x, runner.y, image=runner.image)
+        box1 = canvas.create_image(boxes.box1coords, floorheight+16, image=boxes.box1)
+        time.sleep(0.05)
+        canvas.delete(player)
+        canvas.delete(box1)
+        boxes.speed = boxes.speed + 0.03 #Speed increase for box
+        if game_over:
+            while True:
+                time.sleep(10000) #Hang thread
+
+def soundhandler():
+    global sounds
+    while True:
+        for sound in sounds:
+            s1, s2 = sound
+            winsound.Beep(s1, s2)
+            sounds.remove(sound)
+        time.sleep(0.15)
+
+def varhandler():
+    global runner, canjump, boxes, sounds
+    while True:
+        runner.y = runner.y + runner.speed
+        if floorheight > runner.y:
+            runner.speed = runner.speed + (gravity/2)
+            runner.y = runner.y + 10
+        else:
+            runner.speed = 0
+            runner.y = floorheight
+        boxes.box1coords = boxes.box1coords - boxes.speed
+        if boxes.box1coords < -32:
+            boxes.box1coords = boxes.box1default
+        time.sleep(0.02)
+        if game_over:
+            while True:
+                time.sleep(10000) #Hang thread
+
+cliphandler_thread = threading.Thread(target=cliphandler)
+cliphandler_thread.daemon = True
+cliphandler_thread.start()
+
+graphichandler_thread = threading.Thread(target=graphichandler)
+graphichandler_thread.daemon = True
+graphichandler_thread.start()
+
+soundhandler_thread = threading.Thread(target=soundhandler)
+soundhandler_thread.daemon = True
+soundhandler_thread.start()
+
+varhandler_thread = threading.Thread(target=varhandler)
+varhandler_thread.daemon = True
+varhandler_thread.start()
+
+root.mainloop()
+
+!divider!
+E://drive.txt:E:
+
+!divider!
+E://SD/User/Files/SecMSG/messages.txt:
+[David] hi
+[David] hello
+[David] hey
+[David] d
+[David] ???
+[David] .
+[David] .
+[David] .
+[David] ..
+[David] ...
+[David] ....
+[David] .....
+[David] ......
+[David] ......
+[David] ......
+[David] ......
+[David] ......
+[David] ......
+[David] ......
+[David] ......
+[David] hi
+!divider!
+E://SD/User/Files/test.txt:Testing my text editor
+
+Seems to work alright!
+
+!divider!
+E://SD/User/details.txt:
+!divider!
+E://SD/User/refconfig.txt:!config!
+version:1.5.2
+run(game)-main:@/Programs/Springboard/
+run(game)-box:@Programs/Program Files/Run (game)/box.gif
+run(game)-runner:@Programs/Program Files/Run (game)/runner.gif
+secmsg-sendto:@User/Files/SecMSG/messages.txt
+!divider!
+E://SD/main.py:print("IGNORE AND MINIMISE (BUT DONT'T CLOSE) THIS WINDOW")
+
+global getfile, refs, address, root, alert, fonts, readconfig
+
+import tkinter as tk
+import datetime, sys, os, getpass, threading, time
+
+os.system('title SD')
+
+class config:
+    keep_old_logs = False
+
+def getfile(file):
+    f = open(file, 'r')
+    fread = f.read()
+    f.close()
+    return fread
+
+def log(app, entry, reset=False):
+    now = datetime.datetime.now()
+    if reset:
+        t = '~~~~~~~~~~~~~~~~SD log~~~~~~~~~~~~~~~~\n' + str(now.hour) + ':' + str(now.minute) + ':' + str(now.second)
+    else:
+        t = str(now.hour) + ':' + str(now.minute) + ':' + str(now.second)
+    try:
+        file = open(refs.log, 'a')
+        file.write(t + ' [' + app + ']: ' + entry + '\n')
+        file.close()
+    except FileNotFoundError:
+        file = open(refs.log, 'w')
+        file.write(t + ' [' + app + ']: ' + entry + '\n')
+        file.close()
+
+def readconfig(text):
+    log('config reader', 'Reading config file')
+    if text[0:8] == '!config!':
+        log('config reader', 'Identified as being config file, reading...')
+        text = text[9:]
+        text = text.split('\n')
+        output = {}
+        for value in text:
+            value = value.split(':')
+            val = value[1]
+            if val[0] == '@':
+                value[1] = refs.address + val[1:]
+            output[value[0]] = value[1]
+        log('config reader', 'Read successful, returning output')
+        return output
+    else:
+        log('config reader', 'Not marked correctly, raising error...')
+        raise Exception('Text is not marked as a config file')
+    
+
+def alert(title, message, type='info'):
+    global msg
+    msg = tk.Tk()
+    msg.title(title)
+    msg_label = tk.Label(msg, text='\n        ' + message + '        \n', font=fonts.alerts)
+    msg_label.pack(side=tk.TOP)
+    def close():
+        msg.destroy()
+    msg_close = tk.Button(msg, command=close, text='OK', font=fonts.normal)
+    msg_close.pack(side=tk.BOTTOM)
+    log('alerts', 'New alert: ' + title + ' - ' + message)
+    msg.mainloop()
+
+class refs:
+    address = 'E:/SD/'
+    login = address + 'Programs/Tools/System/login.py'
+    log = address + 'log.txt'
+    springboard = address + 'Programs/Tools/System/springboard.py'
+    apps = address + 'Programs/Springboard/'
+    startbutton = address + 'User/Resources/start.gif'
+    documents = address + 'User/Files/'
+    details = address + 'User/details.txt'
+    refconfig = address + 'User/refconfig.txt'
+    progfiles = address + 'Programs/Program Files/'
+
+refs.external = readconfig(getfile(refs.refconfig))
+
+config.version = refs.external['version']
+
+print('SD V' + config.version)
+
+class fonts:
+    title = ('Courier New', 17)
+    normal = ('Courier New', 9)
+    alerts = ('Courier New', 8)
+
+if not config.keep_old_logs:
+	os.remove(refs.log)
+log('system', 'Log removed, new log created', reset=True)
+
+log('version checker', 'Checking version...')
+log('version checker', 'Version is ' + str(sys.winver))
+log('version checker', 'SD version is ' + config.version)
+
+root = tk.Tk()
+root.title('SD')
+
+exec(getfile(refs.login))
+
+root.mainloop()
+log('system', 'Program closed')
+
+!divider!
+E://SD/Programs/Tools/System/login.py:log('login', 'Login tool started')
+
+global login_passwd, login_frame
+login_frame = tk.Frame(root)
+login_frame.pack(side=tk.TOP)
+
+login_passwd = tk.Entry(login_frame, font=fonts.normal)
+login_passwd.pack(side=tk.LEFT)
+
+def login_action():
+    log('login', 'Details submitted - "' + str(login_passwd.get()) + '"')
+    if getfile(refs.details) == login_passwd.get():
+        log('login', 'Details correct')
+        login_frame.destroy()
+        log('login', 'Destroyed frame')
+        log('login', 'Starting springboard...')
+        exec(getfile(refs.springboard))
+        log('login', 'Springboard started, exiting...')
+    else:
+        alert('Incorrect details', 'Your details are incorrect')
+    
+
+login_button = tk.Button(login_frame, text='Login', command=login_action, font=fonts.normal)
+login_button.pack(side=tk.LEFT)
+
+log('login', 'Login tool created successfully')
+!divider!
+E://SD/Programs/Tools/System/springboard.py:refs.external = readconfig(getfile(refs.refconfig))
+
+log('springboard', 'Springboard started')
+
+global spring_frame, appwindow, start_springboard
+spring_frame = tk.Frame(root)
+spring_label = tk.Label(spring_frame, text='Apps', font=fonts.title)
+
+def start_springboard():
+    appwindow.destroy()
+    log('springboard', 'Springboard button pressed')
+    exec(getfile(refs.springboard))
+    try:
+        onexit()
+        log('springboard', 'RUn onexit() command for program')
+    except NameError:
+        log('springboard', 'Program has no onexit() command')
+
+global spring_all
+def spring_start():
+    global refs
+    refs.external = readconfig(getfile(refs.refconfig))
+    log('springboard', 'Start button pressed')
+    selection = spring_all.curselection()
+    if selection == ():
+        log('springboard', 'No selection')
+        alert('No app selected', 'Please select an app')
+    else:
+        file = spring_all.get(selection)
+        log('springboard', '"' + file + '" selected')
+        if not os.path.isfile(file):
+            log('springboard', 'File found')
+            spring_frame.destroy()
+            global appwindow
+            appwindow = tk.Frame(root)
+            appwindow.pack()
+            startimage = tk.PhotoImage(file=refs.startbutton)
+            springboardbutton = tk.Button(appwindow, command=start_springboard, image=startimage)
+            springboardbutton.image = startimage
+            springboardbutton.pack(side=tk.LEFT)
+            exec(getfile(refs.apps + file))
+        else:
+            log('springboard', "Couldn't find file")
+            alert("Couldn't start program", "File for program could not be found")
+
+spring_all = tk.Listbox(spring_frame, width=100, height=20, font=fonts.normal)
+spring_all_select = tk.Button(spring_frame, text='Start', font=fonts.normal, command=spring_start)
+
+apps = os.listdir(refs.apps)
+for app in apps:
+    spring_all.insert(tk.END, app)
+
+spring_frame.pack()
+spring_label.pack()
+spring_all.pack(fill=tk.X)
+spring_all_select.pack(fill=tk.X)
+
+log('springboard', 'Springboard UI created')
+!divider!
+E://SD/Programs/Tools/Batch/showdrive.bat:@echo off
+setlocal enabledelayedexpansion
+set drive=%~d0
+echo !drive!>drive.txt
+echo Drive - !drive!
+!divider!
+E://SD/Programs/Tools/Batch/drive.txt:E:
+
+!divider!
+E://SD/Programs/Springboard/File Explorer.py:log('file explorer', 'Starting...')
+global files, file, refresh, addressbar
+title = tk.Label(appwindow, font=fonts.title, text='File Explorer')
+filesframe = tk.Frame(appwindow)
+filesbar = tk.Scrollbar(filesframe)
+filesbar.pack(fill=tk.Y, side=tk.RIGHT)
+files = tk.Listbox(filesframe, height=20, width=100, yscrollcommand=filesbar.set, font=fonts.normal)
+
+global explorer_path
+explorer_path = refs.documents
+
+def refresh():
+    log('file explorer', 'Refreshing...')
+    files.delete(0, tk.END)
+    dir = os.listdir(explorer_path)
+    for item in dir:
+        files.insert(tk.END, item)
+
+def open_address():
+    global file
+    log('file explorer', 'Open button pressed')
+    selection = files.curselection()
+    if selection == ():
+        log('file explorer', 'No selection')
+        alert('No file selected', 'Please select an app')
+    else:
+        file = files.get(selection)
+        log('file explorer', '"' + file + '" selected')
+        if os.path.isfile(explorer_path + file):
+            log('file explorer', 'File found, opening')
+            global editorframe
+            editorframe = tk.Frame(appwindow)
+            editorframe.pack(side=tk.TOP)
+            def close_editor():
+                editorframe.destroy()
+                log('file explorer', 'Destroyed text editor')
+            def save_file():
+                log('file explorer', 'Saving file under "' + explorer_path + file + '"')
+                f = open(explorer_path + file, 'w')
+                f.write(editorbox.get(0.0, tk.END))
+                f.close()
+                log('file explorer', 'File saved')
+            close_editor_button = tk.Button(editorframe, command=close_editor, bitmap='error', font=fonts.normal)
+            editortextframe = tk.Frame(editorframe)
+            savebutton = tk.Button(editorframe, text='Save', font=fonts.normal, command=save_file)
+            savebutton.pack(side=tk.TOP)
+            scrollbar = tk.Scrollbar(editortextframe)
+            scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+            editorbox = tk.Text(editortextframe, height=6, yscrollcommand=scrollbar.set, font=fonts.normal)
+            f = open(explorer_path + file, 'r')
+            close_editor_button.pack(anchor='ne')
+            editortextframe.pack(side=tk.TOP)
+            editorbox.insert(tk.END, f.read())
+            f.close()
+            editorbox.pack(side=tk.LEFT)
+            scrollbar.config(command=editorbox.yview)
+            log('file explorer', 'Made text editing view')
+        else:
+            log('file explorer', "Couldn't find file/folder")
+            alert("Couldn't start program", "File/folder could not be found")
+
+def new_file():
+    log('file explorer', 'Making new file')
+    global newfileframe, newfilename
+    newfileframe = tk.Frame(appwindow)
+    def make_new_file():
+        log('file explorer', 'Making new file - "' + explorer_path + newfilename.get() + '"')
+        file = open(explorer_path + newfilename.get(), 'w')
+        file.write('')
+        file.close()
+        log('file explorer', 'New file made')
+        newfileframe.destroy()
+        log('file explorer', 'New file view destroyed')
+        refresh()
+    newfilename = tk.Entry(newfileframe, font=fonts.normal)
+    newfileenter = tk.Button(newfileframe, font=fonts.normal, command=make_new_file, text='Create')
+    newfileframe.pack(side=tk.TOP)
+    newfilename.pack(side=tk.LEFT)
+    newfileenter.pack(side=tk.LEFT)
+    log('file explorer', 'Made new file view')
+
+def delete_file():
+    file = files.curselection()
+    if file == ():
+        alert('Nothing selected', 'Please select something to delete')
+        log('file explorer', 'Asked to delete file, but nothing selected')
+    else:
+        try:
+            os.remove(explorer_path + files.get(file))
+            log('file explorer', 'File deleted')
+        except OSError:
+            log('file explorer', 'OSError while removing file ' + explorer_path + files.get(file))
+            alert('Error', "Couldn't remove file")
+        refresh()
+
+def delete_dir():
+    file = files.curselection()
+    if file == ():
+        log('file explorer', 'Asked to delete directory, but nothing selected')
+        alert('Nothing selected', 'Please select something to delete')
+    else:
+        try:
+            os.rmdir(explorer_path + files.get(file))
+            log('file explorer', 'Directory deleted')
+        except OSError:
+            log('file explorer', 'OSError while removing directory ' + explorer_path + files.get(file))
+            alert('Error', "Couldn't remove directory")
+        refresh()
+
+def new_dir():
+    log('file explorer', 'Making new directory')
+    global newfileframe, newfilename
+    newfileframe = tk.Frame(appwindow)
+    def make_new_file():
+        log('file explorer', 'Making new directory - "' + explorer_path + newfilename.get() + '"')
+        os.mkdir(explorer_path + newfilename.get())
+        log('file explorer', 'New directory made')
+        newfileframe.destroy()
+        log('file explorer', 'New directory view destroyed')
+        refresh()
+    newfilename = tk.Entry(newfileframe, font=fonts.normal)
+    newfileenter = tk.Button(newfileframe, font=fonts.normal, command=make_new_file, text='Create')
+    newfileframe.pack(side=tk.TOP)
+    newfilename.pack(side=tk.LEFT)
+    newfileenter.pack(side=tk.LEFT)
+    log('file explorer', 'Made new directory view')
+
+def set_address():
+    global explorer_path
+    goto = addressbar.get()
+    log('file explorer', 'Asked to go to ' + goto)
+    if not goto == '':
+        if not goto[len(goto)-1] == '/':
+            log('file explorer', 'No /, adding /')
+            goto = goto + '/'
+    else:
+        log('file explorer', 'Address bar empty')
+    explorer_path = refs.documents + goto
+    log('file explorer', 'Path is now ' + explorer_path)
+    refresh()
+
+log('file explorer', 'Building UI...')
+menuframe = tk.Frame(appwindow)
+addressbar = tk.Entry(appwindow, font=fonts.normal)
+gotoaddress = tk.Button(menuframe, font=fonts.normal, text='Go', command=set_address)
+openbutton = tk.Button(menuframe, text='Open', font=fonts.normal, command=open_address)
+newfilebutton = tk.Button(menuframe, text='New file', font=fonts.normal, command=new_file)
+newdirbutton = tk.Button(menuframe, text='New directory', font=fonts.normal, command=new_dir)
+deletebutton = tk.Button(menuframe, text='Delete file', font=fonts.normal, command=delete_file)
+deletedirbutton = tk.Button(menuframe, text='Delete directory', font=fonts.normal, command=delete_dir)
+refreshbutton = tk.Button(menuframe, text='Refresh', font=fonts.normal, command=refresh)
+
+log('file explorer', 'Packing UI...')
+title.pack()
+
+addressbar.pack(fill=tk.X)
+menuframe.pack(fill=tk.X)
+newfilebutton.pack(side=tk.LEFT)
+newdirbutton.pack(side=tk.LEFT)
+deletebutton.pack(side=tk.LEFT)
+deletedirbutton.pack(side=tk.LEFT)
+openbutton.pack(side=tk.LEFT)
+refreshbutton.pack(side=tk.LEFT)
+gotoaddress.pack(side=tk.LEFT)
+
+filesframe.pack()
+files.pack(side=tk.LEFT, fill=tk.BOTH)
+filesbar.config(command=files.yview)
+
+refresh()
+log('file explorer', 'Started')
+
+!divider!
+E://SD/Programs/Springboard/Calculator.py:log('calc', 'Starting...')
+
+global sum_input
+
+def calculate():
+    global num
+    log('calc', 'Got calculation ' + sum_input.get())
+    try:
+        num = eval(sum_input.get()) #WARNING! NEVER USE THIS (if it isn't you giving the inputs)! It can be used (very simply) to inject code into your system. Try calculating print('hi')
+        log('calc', 'Got ' + str(num))
+    except:
+        num = 'Calculation Error'
+        log('calc', 'Error while calculating')
+    if not num == None:
+        sumoutput = tk.Label(appwindow, text=sum_input.get() + ' = ' + str(num), font=fonts.normal)
+        sumoutput.pack()
+    else:
+        0
+
+log('calc', 'Making UI...')
+sum_input = tk.Entry(appwindow, font=fonts.normal)
+calculate_sum = tk.Button(appwindow, text='Calculate', command=calculate, font=fonts.normal)
+
+log('calc', 'Packing UI...')
+sum_input.pack()
+calculate_sum.pack()
+
+log('calc', 'UI created, all done')
+!divider!
+E://SD/Programs/Springboard/Run (game).py:global canjump, alt, speed, jumpspeed, canvas, runner, floorheight, boxes, gravity, approxeq, ongameover, drawhealthbar, healthbar, game_over, window, myrefs, onexit
+
+log('run(game)', 'Started')
+
+class myrefs:
+    me = refs.external['run(game)-main']
+    version = '1.3.0'
+    class images:
+        runner = refs.external['run(game)-runner']
+        box = refs.external['run(game)-box']
+
+def onexit():
+    log('run(game)', 'Exited (onexit function)')
+    import time
+    global game_over
+    game_over = True
+    time.sleep(0.5)
+
+game_over = False
+
+import time, threading, sys
+
+jumpspeed = 3
+speed = 0
+alt = 0
+gravity = 10
+
+class window:
+    height = 200*2
+    width = 500*1.5
+
+floorheight = window.height - 32
+
+canvasframe = tk.Frame(appwindow)
+canvas = tk.Canvas(canvasframe, height=window.height, width=window.width, background="red")
+log('run(game)', 'Made canvas object')
+
+canjump = True
+
+jump_binding = '<space>'	
+
+##### UI
+
+ui_version = tk.Label(appwindow, text='Version ' + str(myrefs.version))
+ui_version.pack(side=tk.LEFT)
+
+#####
+
+canvasframe.pack(anchor='nw')
+canvas.pack(anchor='nw')
+
+def approxeq(val1, val2, diff=None):
+    if val1 > val2:
+        difference = val1 - val2
+    elif val1 < val2:
+        difference = val2 - val1
+    else:
+        difference = 0
+    if diff == None:
+        return difference
+    else:
+        if difference < diff:
+            return True
+        else:
+            return False
+
+class runner:
+    image = tk.PhotoImage(file=myrefs.images.runner)
+    x = 50 + 32
+    y = 200 - 32
+    speed = 0
+    health = 5
+
+class boxes:
+    box1 = tk.PhotoImage(file=myrefs.images.box)
+    box1default = window.width + 32
+    box1coords = box1default
+    speed = 10
+
+def jump(none):
+    global speed, runner
+    if not floorheight > runner.y:
+        runner.speed = -50
+        log('run(game)', 'Player jumped')
+    else:
+        log('run(game)', 'Player tried to jump, but too low')
+
+root.bind(sequence=jump_binding, func=jump)
+log('run(game)', 'Bound ' + jump_binding + ' to jump')	
+
+def ongameover():
+    log('run(game)', 'Game over')
+    import time
+    global game_over
+    game_over = True
+    canvas.create_text(window.width / 2, window.height / 2, font=('Comic Sans MS', 40), text='Game Over')
+    log('run(game)', 'Game over screen created, hanging')
+    while True:
+        time.sleep(10000) #Hang thread
+
+def drawhealthbar(health):
+    log('run(game)', 'Drawing healthbar - health is ' + str(health))
+    global healthbar
+    if not healthbar == '':
+        for pos in healthbar:
+            canvas.create_rectangle(10, pos, 30, pos+10, fill='red', outline='red')
+        log('run(game)', 'Old health bar overwritten')
+    else:
+        log('run(game)', 'No health bar written already')
+    healthbar = []
+    for pos in range(10, health*10, 10):
+        canvas.create_rectangle(10, pos, 30, pos+10, fill='green', outline='red')
+        healthbar.append(pos)
+    log('run(game)', 'New health bar references written')
+
+healthbar = ''
+drawhealthbar(runner.health)
+
+def onclip():
+    global runner
+    runner.lives = runner.lives - 1
+    log('run(game)', 'Runner clipped box')
+
+def cliphandler():
+    global runner
+    import time
+    while True:
+        if approxeq(boxes.box1coords, runner.x, diff=32) and runner.y > floorheight - 64: #Clipped box
+            runner.health = runner.health - 1
+            drawhealthbar(runner.health)
+            if runner.health == 1:
+                ongameover()
+            log('run(game)', 'Cooling down from box clip')
+            time.sleep(boxes.speed / 40) #Cooldown
+        time.sleep(0.008)
+
+def graphichandler():
+    global runner, boxes
+    import time
+    while True: #Render in players
+        player = canvas.create_image(runner.x, runner.y, image=runner.image)
+        box1 = canvas.create_image(boxes.box1coords, floorheight+16, image=boxes.box1)
+        time.sleep(0.05)
+        canvas.delete(player)
+        canvas.delete(box1)
+        boxes.speed = boxes.speed + 0.03 #Speed increase for box
+        if game_over:
+            while True:
+                time.sleep(10000) #Hang thread
+
+def varhandler():
+    global runner, canjump, boxes
+    import time
+    while True:
+        runner.y = runner.y + runner.speed
+        if floorheight > runner.y:
+            runner.speed = runner.speed + (gravity/2)
+            runner.y = runner.y + 10
+        else:
+            runner.speed = 0
+            runner.y = floorheight
+        boxes.box1coords = boxes.box1coords - boxes.speed
+        if boxes.box1coords < -32:
+            boxes.box1coords = boxes.box1default
+        time.sleep(0.02)
+        if game_over:
+            while True:
+                time.sleep(10000) #Hang thread
+
+log('run(game)', 'Starting cliphandler thread...')
+cliphandler_thread = threading.Thread(target=cliphandler)
+cliphandler_thread.daemon = True
+cliphandler_thread.start()
+
+log('run(game)', 'Starting graphic handler thread...')
+graphichandler_thread = threading.Thread(target=graphichandler)
+graphichandler_thread.daemon = True
+graphichandler_thread.start()
+
+log('run(game)', 'Starting varhandler thread (handles most movement)')
+varhandler_thread = threading.Thread(target=varhandler)
+varhandler_thread.daemon = True
+varhandler_thread.start()
+
+log('run(game)', 'Program successfully started')
+!divider!
+E://SD/Programs/Springboard/SecMSG.py:log('SecMSG', 'Started')
+
+global sendbox, msg_refresh, interactoutput
+
+def msg_refresh(box, text, maxlen):
+    log('SecMSG', 'Refreshing...')
+    box.delete(0.0, tk.END)
+    text = text.split('\n')
+    if len(text) > maxlen:
+        text = text[len(text) - maxlen:]
+    tout = ''
+    for t in text:
+        if tout == '':
+            tout = tout + t
+        else:
+            tout = tout + '\n' + t
+    box.insert(tk.END, tout)
+
+class contypes:
+    class text:
+        def send():
+            file = open(refs.external['secmsg-sendto'], 'a')
+            file.write('\n' + '[' + getpass.getuser() + '] ' + sendbox.get())
+            file.close()
+            log('SecMSG', 'Sent ' + sendbox.get() + ' as ' + getpass.getuser())
+        def updateloop():
+            global interactoutput
+            while True:
+                exit = False
+                file = open(refs.external['secmsg-sendto'], 'r')
+                oldf = file.read()
+                file.close()
+                msg_refresh(interactoutput, oldf, 7)
+                while not exit:
+                    time.sleep(0.3)
+                    file = open(refs.external['secmsg-sendto'], 'r')
+                    newf = file.read()
+                    file.close()
+                    if not oldf == newf:
+                        exit = True
+                file = open(refs.external['secmsg-sendto'], 'r')
+                msg_refresh(interactoutput, file.read(), 7)
+                file.close()
+                log('SecMSG', 'Update to message file')
+    contypes = {'text':text}
+    log('SecMSG', 'Made contypes')
+
+log('SecMSG', 'Building UI...')
+typesframe = tk.Frame(appwindow)
+typesheader = tk.Label(typesframe, font=fonts.title, text='Connection')
+types = tk.Listbox(typesframe, font=fonts.normal)
+typesset = tk.Button(typesframe, font=fonts.normal, text='Set')
+
+interactframe = tk.Frame(appwindow)
+interactheader = tk.Label(interactframe, font=fonts.title, text='Messaging')
+interactoutput = tk.Text(interactframe, font=fonts.normal, height=7, width=1)
+
+functionframe = tk.Frame(interactframe)
+sendbutton = tk.Button(functionframe, font=fonts.normal, text='Send', command=contypes.text.send)
+sendbox = tk.Entry(functionframe, font=fonts.normal)
+
+log('SecMSG', 'Inserting connection types...')
+for t in contypes.contypes:
+    types.insert(tk.END, t)
+
+log('SecMSG', 'Packing UI...')
+typesframe.pack(side=tk.LEFT)
+typesheader.pack(side=tk.TOP)
+types.pack(side=tk.TOP)
+typesset.pack(side=tk.BOTTOM, fill=tk.X)
+
+interactframe.pack(side=tk.RIGHT)
+interactheader.pack(anchor='n')
+interactoutput.pack(anchor='n', fill=tk.X)
+
+functionframe.pack(side=tk.BOTTOM)
+sendbox.pack(side=tk.LEFT)
+sendbutton.pack(side=tk.LEFT)
+
+log('SecMSG', 'Starting update thread')
+updatethread = threading.Thread(target=contypes.text.updateloop)
+updatethread.daemon = True
+updatethread.start()
+log('SecMSG', 'Made update thread')
+
+log('SecMSG', 'UI created, all done')
+!divider!
+E://SD/log.txt:~~~~~~~~~~~~~~~~SD log~~~~~~~~~~~~~~~~
+11:20:20 [system]: Log removed, new log created
+11:20:20 [version checker]: Checking version...
+11:20:20 [version checker]: Version is 3.4
+11:20:20 [version checker]: SD version is 1.5.2
+11:20:20 [login]: Login tool started
+11:20:20 [login]: Login tool created successfully
+11:21:18 [login]: Details submitted - ""
+11:21:18 [login]: Details correct
+11:21:18 [login]: Destroyed frame
+11:21:18 [login]: Starting springboard...
+11:21:18 [config reader]: Reading config file
+11:21:18 [config reader]: Identified as being config file, reading...
+11:21:18 [config reader]: Read successful, returning output
+11:21:18 [springboard]: Springboard started
+11:21:18 [springboard]: Springboard UI created
+11:21:18 [login]: Springboard started, exiting...
+11:32:16 [system]: Program closed
+
+!divider!
+E://showdrive.bat:@echo off
+setlocal enabledelayedexpansion
+set drive=%~d0
+echo !drive!>drive.txt
+echo Drive - !drive!
+!divider!
+E://test.py:input('lel xd')
+!divider!
+E://InkTraction/InkTraction.py:import Data.colours as colours
+import Data.data as config
+import tkinter as tk
+
+root = tk.Tk()
+
+class refs:
+    path = 'E:/InkTraction/'
+    name = 'InkTraction'
+    class logo:
+        _blank = None
+    logo.path = path + 'Data/icon.gif'
+    logo.image = tk.PhotoImage(file=logo.path)
+    class small_logo:
+        _blank = None
+    small_logo.path = path + 'Data/icon-small.gif'
+    small_logo.image = tk.PhotoImage(file=small_logo.path)
+
+root.title(refs.name)
+
+label = tk.Label(root, image=refs.logo.image)
+label.pack()
+
+label2 = tk.Label(root, image=refs.small_logo.image)
+label2.pack()
+
+root.mainloop()
+!divider!
+E://InkTraction/Data/colours.py:class table:
+    base = '!' #Give this if you can't find a match
+    basename = 'brown'
+    letters = {basename:base, 'white':'0', 'red':'a', 'yellow':'b', 'blue':'c', 'green':'bc', 'purple':'ac', 'orange':'ab'}
+    names = {base:basename, '0':'white', 'a':'red', 'b':'yellow', 'c':'blue', 'bc':'green', 'ac':'purple', 'ab':'orange'}
+
+def colouris(table, colour, string):
+    return colour == table.letters[string]
+
+def mix(table, colourA, colourB):
+    if colourA == colourB:
+        return colourA
+    else:
+        colour = [colourA, colourB]
+        colour.sort()
+        colour = colour[0] + colour[1]
+        success = False
+        for c in table.names:
+            if c == colour:
+                success = True
+        if not success:
+            colour = table.base
+        return colour
+!divider!
+E://InkTraction/Data/data.py:
+!divider!
