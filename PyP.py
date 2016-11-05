@@ -79,13 +79,13 @@ def compression():
         pos = pos + 1
     file.write('$\n')
     for item in files:
-        file.write(item + '\n')
+        file.write(item + ':')
         try:
             f = open(item, 'r')
-            file.write(f.read() + '\n')
+            file.write(f.read() + '\n!divider!\n')
             f.close()
         except OSError:
-            file.write('Error\n')
+            file.write('PyP - Error while packing\n')
             print('Error while writing in ' + item)
         progc.step(progress, step * pos)
         pos = pos + 1
@@ -112,6 +112,14 @@ def decompression():
     for item in folders.split('\n'):
         if not item == '':
             os.mkdir(toentry + item)
+    for item in files.split('\n!divider!\n'):
+        if not item == '':
+            name, contents = item.split(':')
+            if name[:1] == '\n':
+                name = name[1:]
+            file = open(toentry + name, 'w')
+            file.write(contents)
+            file.close()
 
 def c():
     global confframe, comptypes
@@ -150,11 +158,11 @@ def d():
 root.iconphoto(True, data.images.icon)
 
 startframe = tk.Frame()
-comp = tk.Button(startframe, text='Compress', command=c)
-decomp = tk.Button(startframe, text='Decompress', command=d)
+comp = tk.Button(startframe, text='Compress a directory', command=c)
+decomp = tk.Button(startframe, text='Decompress PyP files', command=d)
 
 startframe.pack()
-comp.pack()
-decomp.pack()
+comp.pack(fill=tk.X)
+decomp.pack(fill=tk.X)
 
 root.mainloop()

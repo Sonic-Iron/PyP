@@ -2,7 +2,7 @@ To compress$
 To compress/1
 To compress/2
 $
-To compress/1/testa.txt
-some random text
-To compress/2/testb.py
-print('and some more')
+To compress/1/testa.txt:some random text
+!divider!
+To compress/2/testb.py:print('and some more')
+!divider!
