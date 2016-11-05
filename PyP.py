@@ -1,4 +1,4 @@
-global root, progress, progc, compress, target, extensions, confframe, comptypes, compto, start_compression
+global root, progress, progc, compress, target, extensions, confframe, comptypes, compto, start_compression, startframe
 
 import os, sys, time, threading
 
@@ -27,13 +27,14 @@ def progresscanvas(canvas, width=100, height=50):
 compress = False
 
 def start_compression():
-    global compress, progress, progc
+    global compress, progress, progc, confframe
     progress = tk.Canvas(root, width=100, height=50)
     progc = progresscanvas(progress)
     progress.pack()
     compress = True
 
 def compression():
+    global confframe
     while not compress:
         pass
     steps = 17
@@ -45,7 +46,10 @@ def compression():
     except IndexError:
         ctype = 0
     ctype = comp_types[ctype]
-    confframe.destroy()
+    try:
+        confframe.destroy()
+    except tk.TclError:
+        pass
     def scan(self, d):
         global items
         for thing in os.listdir(d):
@@ -86,11 +90,16 @@ def compression():
         pos = pos + 1
     file.close()
 
+def start_decompression():
+    
+
 def decompression():
     confframe.destroy()
+    start_decompression()
 
 def c():
     global confframe, comptypes
+    startframe.destroy()
     confframe = tk.Frame(root)
     comptypes = tk.Listbox(confframe)
     gobutton = tk.Button(confframe, text='Start', command=start_compression)
@@ -103,15 +112,25 @@ def c():
     compression_thread.daemon = True
     compression_thread.start()
 
+def d():
+    global confframe, comptypes
+    startframe.destroy()
+    confframe = tk.Frame(root)
+    gobutton = tk.Button(confframe, text='Start', command=start_decompression)
+    gobutton.pack(side=tk.TOP, fill=tk.X)
+    confframe.pack()
+    decompression_thread = threading.Thread(target=decompression, name='Decompression Thread')
+    decompression_thread.daemon = True
+    decompression_thread.start()
+
 root.iconphoto(True, data.images.icon)
 
 startframe = tk.Frame()
-decomp = tk.Button(root, text='Compress', command=c)
+comp = tk.Button(startframe, text='Compress', command=c)
+decomp = tk.Button(startframe, text='Decompress', command=d)
 
+startframe.pack()
+comp.pack()
 decomp.pack()
-
-compression_thread = threading.Thread(target=compression, name='Decompression Thread')
-compression_thread.daemon = True
-compression_thread.start()
 
 root.mainloop()
