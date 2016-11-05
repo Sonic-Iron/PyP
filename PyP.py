@@ -1,4 +1,4 @@
-global root, progress, progc, compress, target, extensions, confframe, comptypes, compto, start_compression, startframe
+global root, progress, progc, compress, target, extensions, confframe, comptypes, compto, start_compression, startframe, locentry, toentry
 
 import os, sys, time, threading
 
@@ -25,6 +25,7 @@ def progresscanvas(canvas, width=100, height=50):
     return actions
 
 compress = False
+decompress = False
 
 def start_compression():
     global compress, progress, progc, confframe
@@ -69,7 +70,7 @@ def compression():
     step = 85 / (len(folders) + len(files))
     pos = 1
     file = open(compto, 'w')
-    file.write('')
+    file.write(target + '$\n')
     file.close()
     file = open(compto, 'a')
     for item in folders:
@@ -91,11 +92,26 @@ def compression():
     file.close()
 
 def start_decompression():
-    
+    global decompress
+    decompress = True
 
 def decompression():
+    global toentry, locentry
+    while not decompress:
+        pass
+    locentry = locentry.get()
+    toentry = toentry.get()
     confframe.destroy()
-    start_decompression()
+    if toentry[len(toentry)-1] != '/':
+        toentry = toentry + '/'
+    file = open(locentry, 'r')
+    todo = file.read()
+    file.close()
+    target, folders, files = todo.split('$')
+    os.mkdir(toentry + target)
+    for item in folders.split('\n'):
+        if not item == '':
+            os.mkdir(toentry + item)
 
 def c():
     global confframe, comptypes
@@ -113,11 +129,19 @@ def c():
     compression_thread.start()
 
 def d():
-    global confframe, comptypes
+    global confframe, locentry, toentry
     startframe.destroy()
     confframe = tk.Frame(root)
     gobutton = tk.Button(confframe, text='Start', command=start_decompression)
-    gobutton.pack(side=tk.TOP, fill=tk.X)
+    loclabel = tk.Label(confframe, text='Item to unpack')
+    locentry = tk.Entry(confframe)
+    tolabel = tk.Label(confframe, text='Unpack to')
+    toentry = tk.Entry(confframe)
+    loclabel.pack(side=tk.LEFT)
+    locentry.pack(side=tk.LEFT)
+    tolabel.pack(side=tk.LEFT)
+    toentry.pack(side=tk.LEFT)
+    gobutton.pack(side=tk.RIGHT, fill=tk.X)
     confframe.pack()
     decompression_thread = threading.Thread(target=decompression, name='Decompression Thread')
     decompression_thread.daemon = True
