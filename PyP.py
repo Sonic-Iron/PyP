@@ -1,15 +1,20 @@
+print('PyP made by thepimaster/juckes1david/seckujdivad')
+
+
+
+
 global root, progress, progc, compress, target, extensions, confframe, comptypes, compto, start_compression, startframe, locentry, toentry
 
 import os, sys, time, threading
 
 extensions = ['py', 'txt', 'bat']
 comp_types = ['PyP', 'Python'] #Default is first
-print('PyP')
 
 import tkinter as tk
 
 root = tk.Tk()
 root.title('PyP')
+os.system('title PyP')
 
 class data:
     class images:
