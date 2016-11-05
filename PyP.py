@@ -93,6 +93,34 @@ def compression():
             progc.step(progress, step * pos)
             pos = pos + 1
         file.close()
+    elif ctype == 'Python':
+        file = open(compto, 'w')
+        file.write('''import os
+os.system('title PyP Unpacker')
+print('PyP Unpacker - make sure you want to unpack into this directory')
+input('If so, press enter')
+print('Unpacking...')
+
+#Auto generated code:
+''')
+        file.close()
+        file = open(compto, 'a')
+        file.write('os.mkdir("' + target + '")')
+        for item in folders:
+            file.write('\nos.mkdir("' + item + '")')
+            progc.step(progress, step * pos)
+            pos = pos + 1
+        for item in files:
+            file.write('''
+file = open("''' + item + '''", 'w')
+''')
+            f = open(item, 'r')
+            file.write('file.write("""' + f.read() + '""")\nfile.close()')
+            f.close()
+            progc.step(progress, step * pos)
+            pos = pos + 1
+        file.write('\ninput("Done!")')
+        file.close()
     def showfile():
         os.popen('"' + sys.path[0] + '/' + compto + '"')
     donelabel = tk.Label(root, text='Done!')
@@ -162,7 +190,7 @@ def c():
     comptypes.pack(side=tk.TOP)
     gobutton.pack(side=tk.TOP, fill=tk.X)
     confframe.pack()
-    compression_thread = threading.Thread(target=compression, name='Compression Thread')
+    compression_thread = threading.Thread(target=compression, name='Packer Thread')
     compression_thread.daemon = True
     compression_thread.start()
 
@@ -181,15 +209,15 @@ def d():
     toentry.pack(side=tk.LEFT)
     gobutton.pack(side=tk.RIGHT, fill=tk.X)
     confframe.pack()
-    decompression_thread = threading.Thread(target=decompression, name='Decompression Thread')
+    decompression_thread = threading.Thread(target=decompression, name='Unpacker Thread')
     decompression_thread.daemon = True
     decompression_thread.start()
 
 root.iconphoto(True, data.images.icon)
 
 startframe = tk.Frame()
-comp = tk.Button(startframe, text='Compress a directory', command=c)
-decomp = tk.Button(startframe, text='Decompress PyP files', command=d)
+comp = tk.Button(startframe, text='Pack a directory', command=c)
+decomp = tk.Button(startframe, text='Unpack PyP files', command=d)
 
 startframe.pack()
 comp.pack(fill=tk.X)
